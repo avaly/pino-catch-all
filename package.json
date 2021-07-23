@@ -1,6 +1,6 @@
 {
   "name": "pino-catch-all",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms non-JSON log lines into Pino compatible lines",
   "author": "Valentin Agachi <github-com@agachi.name>",
   "repository": {
