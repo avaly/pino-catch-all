@@ -33,4 +33,4 @@ $ node ./app.js | pino-catch-all | pino-pretty
 
 Author: [Valentin Agachi](http://agachi.name/).
 
-MIT License, see the included [License.md](License.md) file.
+MIT License, see the included [LICENSE](LICENSE) file.
