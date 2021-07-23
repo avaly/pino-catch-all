@@ -10,6 +10,8 @@
   "license": "MIT",
   "keywords": [
     "pino",
+    "logger",
+    "logging",
     "transport",
     "transform",
     "json",
