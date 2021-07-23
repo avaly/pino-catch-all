@@ -1,10 +1,10 @@
-import fastJsonParse from 'fast-json-parse';
-import * as os from 'os';
-import split from 'split2';
-import { pipeline } from 'stream';
-import { promisify } from 'util';
+const fastJsonParse = require('fast-json-parse');
+const os = require('os');
+const split = require('split2');
+const { pipeline } = require('stream');
+const { promisify } = require('util');
 
-export default function stream({
+module.exports = function stream({
   hostname = os.hostname(),
   level = 10,
 }) {
@@ -25,4 +25,4 @@ export default function stream({
   }
 
   promisify(pipeline)([process.stdin, split(processLine), process.stdout]);
-}
+};

@@ -19,16 +19,15 @@
     "catch",
     "rewrite"
   ],
-  "type": "module",
   "engines": {
     "node": ">=12.0.0"
   },
   "bin": {
-    "pino-catch-all": "./cli.mjs"
+    "pino-catch-all": "./cli.js"
   },
   "files": [
-    "cli.mjs",
-    "stream.mjs"
+    "cli.js",
+    "stream.js"
   ],
   "scripts": {
     "test": "mocha"
@@ -44,7 +43,7 @@
     "pino-pretty": "5.1.2"
   },
   "volta": {
-    "node": "12.22.3",
+    "node": "12.15.0",
     "yarn": "1.22.10"
   }
 }

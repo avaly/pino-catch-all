@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-import fs from 'fs';
-import program from 'commander';
-import stream from './stream.mjs';
+const fs = require('fs');
+const program = require('commander');
+const stream = require('./stream.js');
 
 function cli() {
   const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
