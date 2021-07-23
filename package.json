@@ -1,0 +1,44 @@
+{
+  "name": "pino-catch-all",
+  "version": "1.0.0",
+  "description": "Transforms non-JSON log lines into Pino compatible lines",
+  "author": "Valentin Agachi <github-com@agachi.name>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avaly/pino-catch-all"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pino",
+    "transport",
+    "transform",
+    "json",
+    "non-json",
+    "catch",
+    "rewrite"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "bin": {
+    "pino-catch-all": "./cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "stream.mjs"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "commander": "8.0.0",
+    "fast-json-parse": "1.0.3",
+    "split2": "3.2.2"
+  },
+  "devDependencies": {
+    "mocha": "9.0.2",
+    "pino": "7.0.0-rc.1",
+    "pino-pretty": "5.1.2"
+  }
+}
