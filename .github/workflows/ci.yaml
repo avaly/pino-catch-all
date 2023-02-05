@@ -9,9 +9,20 @@ on:
 jobs:
   unit:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node: [14, 16, 18]
+
+    name: Node.js ${{ matrix.node }}
+
     steps:
       - uses: actions/checkout@v3.3.0
-      - uses: volta-cli/action@v4.0.0
+      - uses: actions/setup-node@v3.6.0
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'yarn'
       - run: node -v
       - uses: actions/cache@v3.2.4
         with:
