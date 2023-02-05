@@ -4,7 +4,6 @@
 
 [![Github Actions](https://github.com/avaly/pino-catch-all/actions/workflows/ci.yaml/badge.svg)](https://github.com/avaly/pino-catch-all/actions)
 [![NPM version](https://img.shields.io/npm/v/pino-catch-all.svg?style=flat-square)](https://www.npmjs.com/package/pino-catch-all)
-[![Dependencies](https://img.shields.io/david/avaly/pino-catch-all.svg?style=flat-square)](https://david-dm.org/avaly/pino-catch-all)
 [![Install size](https://packagephobia.now.sh/badge?p=pino-catch-all)](https://packagephobia.now.sh/result?p=pino-catch-all)
 
 ## Installation
