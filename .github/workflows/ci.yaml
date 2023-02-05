@@ -10,9 +10,10 @@ jobs:
   unit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: volta-cli/action@v1
-      - uses: actions/cache@v2.1.6
+      - uses: actions/checkout@v3.3.0
+      - uses: volta-cli/action@v4.0.0
+      - run: node -v
+      - uses: actions/cache@v3.2.4
         with:
           path: node_modules
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
