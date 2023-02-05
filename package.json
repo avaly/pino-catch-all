@@ -30,6 +30,7 @@
     "stream.js"
   ],
   "scripts": {
+    "release": "standard-version",
     "test": "mocha"
   },
   "dependencies": {
@@ -40,7 +41,8 @@
   "devDependencies": {
     "mocha": "9.0.2",
     "pino": "7.0.0-rc.1",
-    "pino-pretty": "5.1.2"
+    "pino-pretty": "5.1.2",
+    "standard-version": "9.5.0"
   },
   "volta": {
     "node": "12.15.0",
