@@ -10,7 +10,7 @@ function cli() {
   program
     .version(pkg.version)
     .option('-h, --hostname <hostname>', 'The hostname of the caught logs. Defaults to current hostname.')
-    .option('-l, --level <level>', 'The level of the caught logs. Defaults to "trace".')
+    .option('-l, --level <level>', 'The level of the caught logs. Defaults to `10` ("trace").')
     .action(stream);
 
   program.parse(process.argv);
