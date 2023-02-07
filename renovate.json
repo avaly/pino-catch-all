@@ -10,6 +10,19 @@
   "labels": [
     "dependencies"
   ],
+  "packageRules": [
+    {
+      "enabled": false,
+      "groupName": "Skip major Node.js versions",
+      "matchPackageNames": [
+        "@types/node",
+        "node"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ]
+    }
+  ],
   "postUpdateOptions": [
     "yarnDedupeHighest"
   ],
