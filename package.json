@@ -41,7 +41,7 @@
   "devDependencies": {
     "mocha": "10.2.0",
     "pino": "8.10.0",
-    "pino-pretty": "9.1.1",
+    "pino-pretty": "9.2.0",
     "standard-version": "9.5.0"
   },
   "volta": {
