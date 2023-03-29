@@ -36,7 +36,7 @@
   "dependencies": {
     "commander": "10.0.0",
     "fast-json-parse": "1.0.3",
-    "split2": "4.1.0"
+    "split2": "4.2.0"
   },
   "devDependencies": {
     "mocha": "10.2.0",
